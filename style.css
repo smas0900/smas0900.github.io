@@ -471,6 +471,27 @@ body {
     display: none;
   }
 
+   .bgdesk{
+    overflow: hidden;
+  }
+  .anim{
+    animation-duration: 9s;
+    animation-name: slidein;
+    animation-iteration-count:1;
+  }
+
+  @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
   .navDesk {
     list-style: none;
     display: flex;
