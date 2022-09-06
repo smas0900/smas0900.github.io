@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smas Portfolio homepage</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/a6f7ce814a.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -16,23 +17,26 @@
             <img src="./logos/menu.svg" alt="navigation icon" class="navigation__hamburger">
             <ul class="navDesk">
                 <li>
-                    <a href="#">
-                        Portfolio
-                    </a>
+                    <a class="menu-item" href="#">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#">
-                        About
-                    </a>
+                    <a class="menu-item" href="#">About</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Contact
-                    </a>
+                    <a class="menu-item" href="#">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
+
+    <div class="mobile-menu">
+        <i class="fa-solid fa-xmark"></i>
+        <a class="mobile-menu-item main-menu">Portfolio</a>
+        <a class="mobile-menu-item works-menu">Works</a>
+        <a class="mobile-menu-item about-myself-menu" >About</a>
+        <a class="mobile-menu-item contact-me-menu" >Contact</a>
+      </div>
+
 <section class="bg">
     <div class="bgdesk">
         <h1>I’m Alqama <br> Glad to see you!</h1>
@@ -229,5 +233,6 @@
             </form>
         </div>
    </section>
+   <script src="./nav.js"></script>   
 </body>
 </html>
