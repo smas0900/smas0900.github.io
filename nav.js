@@ -1,4 +1,4 @@
-const burgerMenu = document.querySelector('.menu-burger-icon');
+const burgerMenu = document.querySelector('.navigation__hamburger');
 const menu = document.querySelector('.mobile-menu');
 
 function openMenu() {
