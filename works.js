@@ -75,7 +75,7 @@ const projectsInfo = [
             </div>
 
             
-    `; 
+    `;
   });
   
   const cards = document.querySelectorAll('.work-card');
