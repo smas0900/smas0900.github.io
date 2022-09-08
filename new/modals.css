@@ -26,7 +26,6 @@
   padding: 0 16px;
   border-radius: 16px;
   z-index: 100001;
-  background-color: red;
 }
 
 .modal-close {
@@ -83,7 +82,8 @@
   }
 
   .modal-structure {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
   }
