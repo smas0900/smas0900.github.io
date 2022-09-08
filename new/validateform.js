@@ -4,7 +4,7 @@ const errorUpper = '&#9888; Your email is in uppercase. Please rewrite it in low
 const small = document.createElement('small');
 
 function checkCase(input) {
-  return /[A-Z]/.test(input); 
+  return /[A-Z]/.test(input);
 }
 
 form.addEventListener('submit', (e) => {
