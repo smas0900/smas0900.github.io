@@ -230,44 +230,6 @@ body {
   background-color: #c2c6f0;
   border-radius: 8px;
 }
-/*
-.card_see {
-  background-color: transparent;
-  display: flex;
-  cursor: pointer;
-  width: 124px;
-  height: 48px;
-  border: 1px solid #6070ff;
-  color: #396df2;
-  font: normal 500 17px "Poppins", sans-serif;
-  border-radius: 8px;
-  padding: 10px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-right: 20px;
-  transition-property: background-color, color, border-radius;
-  transition-duration: 3s, 3s, 3s;
-}
-
-.card_see:hover {
-  background-color: #6070ff;
-  color: #fff;
-  border-radius: 8px;
-}
-
-.card_see:focus {
-  background-color: #2230d2;
-  color: #fff;
-  border-radius: 8px;
-}
-
-.card_see:disabled,
-.card_see [disabled] {
-  border: 1px solid #5e6c84;
-  background-color: transparent;
-  color: #5e6c84;
-  border-radius: 8px;
-}*/
 
 .aboutme {
   margin-top: 20px;
