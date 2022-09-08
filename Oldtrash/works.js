@@ -30,19 +30,9 @@ const projectsInfo = [
       live: '#',
       source: '#',
     },
-    {
-      title: 'Uber Navigation',
-      desc: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
-      langs: ['HTML', 'Javascript', 'CSS'],
-      imgCard: './images/SnapshootPortfolio(2).png',
-      cannopy: 'Uber',
-      job: 'Lead Developer',
-      live: '#',
-      source: '#',
-    }
   ];
   
-  const projects = document.querySelector('.works');
+  const projects = document.querySelector('.workss');
   
   projectsInfo.forEach((project) => {
     projects.innerHTML += `
@@ -66,11 +56,12 @@ const projectsInfo = [
                   
                   <p class="para">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
                   <ul class="list">
-                    ${project.langs.map((lang) => ` <li class="box"><button type="button">${lang}</button></li>`).join('')} 
+                  ${project.langs.map((lang) => `<li class="language-bg card-language">${lang}</li>`).join('')} 
                   </ul>
+
                   
-                  <button onClick="console.log('works')" class ="card_see" type="button">See Project</button>
                 </div>
+            </div>
             </div>
             </div>
 

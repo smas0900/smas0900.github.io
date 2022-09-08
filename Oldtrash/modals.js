@@ -3,7 +3,7 @@ const modals = [
       title: 'Facebook 360',
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.",
       langs: ['Html', 'Css', 'Javascript'],
-      imgCard: '.././assets/images/Portfolio1.png"',
+      imgCard: './images/SnapshootPortfolio.png',
       cannopy: 'FACEBOOK',
       job: 'Full Stack Dev',
       year: '2015',
@@ -12,7 +12,7 @@ const modals = [
       title: 'Multi-Post Stories',
       desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.',
       langs: ['HTML', 'Ruby on rails', 'Javascript','CSS'],
-      imgCard: '.././assets/images/Portfolio3.png',
+      imgCard: './images/SnapshootPortfolio(1).png',
       cannopy: 'FACEBOOK',
       job: 'Full Stack Dev',
       year: '2015',
@@ -21,7 +21,7 @@ const modals = [
       title: 'Tonic',
       desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.',
       langs: ['HTML', 'CSS', 'Javascript'],
-      imgCard: '.././assets/images/Portfolio2.png',
+      imgCard: './images/SnapshootPortfolio(2).png',
       cannopy: 'CANOPY',
       job: 'Back End Dev',
       year: '2015',
@@ -55,11 +55,12 @@ const modals = [
                     </ul>
   
                     <div class="modal-line"></div>
-  
+
                     <div class="modal-btn-group">
-                      <button onClick="" class="card-button btn modal-btn">See Live <i class="fa-sharp fa-solid fa-earth-americas"></i></button>
-                      <button onClick="" class="card-button btn modal-btn">See Source <i class="fa-brands fa-github"></i></button>
-                    </div>
+                    <button onClick="" class="card-button btn modal-btn">See Live <i class="fa-sharp fa-solid fa-earth-americas"></i></button>
+                    <button onClick="" class="card-button btn modal-btn">See Source <i class="fa-brands fa-github"></i></button>
+                  </div>
+
                   </div>
                 </div>
               </div>`;
@@ -75,7 +76,7 @@ function ShowCloseModal(index) {
     modalClose.addEventListener('click', () => {
       modal[index].style.display = 'none';
       document.querySelectorAll('.modal-bg')[index].style.display = 'none';
-    });
+    });f
     window.addEventListener('click', (e) => {
       if (e.target === modal[index]) {
         modal[index].style.display = 'none';
