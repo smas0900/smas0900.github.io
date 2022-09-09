@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e5e5e5;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.space {
+  height: 100px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  background: #dfe1e6;
+}
+
+.btn {
+  transition: color, background-color;
+  transition-duration: 0.7s, 0.7s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #ffff;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
