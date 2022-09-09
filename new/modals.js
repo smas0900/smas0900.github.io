@@ -3,7 +3,7 @@ const modals = [
     title: 'Facebook 360',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     langs: ['Html', 'Css', 'Javascript'],
-    imgCard: './images/SnapshootPortfolio.png',
+    imgCard: './images/SnapshootPortfolio15.svg',
     cannopy: 'FACEBOOK',
     job: 'Full Stack Dev',
     year: '2015',
@@ -12,7 +12,7 @@ const modals = [
     title: 'Multi-Post Stories',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     langs: ['HTML', 'Ruby on rails', 'Javascript', 'CSS'],
-    imgCard: './images/SnapshootPortfolio(1).png',
+    imgCard: './images/SnapshootPortfolio16.svg',
     cannopy: 'FACEBOOK',
     job: 'Full Stack Dev',
     year: '2015',
@@ -21,7 +21,7 @@ const modals = [
     title: 'Tonic',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     langs: ['HTML', 'CSS', 'Javascript'],
-    imgCard: './images/SnapshootPortfolio(2).png',
+    imgCard: './images/SnapshootPortfolio17.svg',
     cannopy: 'CANOPY',
     job: 'Back End Dev',
     year: '2015',
@@ -47,7 +47,9 @@ for (let i = 0; i < modals.length; i += 1) {
                 <p class="category-text grid-item">${modals[i].year}</p>
               </div>
               
-              <img src="${modals[i].imgCard}" class="work-img modal-img" alt="Portfolio Image">
+              <div class="project-img" style="background-image: url(${modals[i].imgCard})">
+              </div>
+
               <div class="make-flex modal-structure">
                 <p class="card-description modal-desc">${modals[i].desc}</p>
                 <div>

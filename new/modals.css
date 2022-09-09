@@ -8,6 +8,7 @@
   opacity: 0.5;
   background-color: black;
   width: 100% !important;
+  overflow: hidden;
 }
 
 .modal-bg {
@@ -17,7 +18,7 @@
   display: none;
   position: fixed;
   top: 9%;
-  overflow-y: auto !important;
+  overflow-y: auto ;
   flex-direction: column;
   justify-content: flex-start;
   width: 90%;
@@ -76,11 +77,17 @@
   margin-left: 7px;
 }
 
+.project-img {
+  min-height: 10%;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+
 @media only screen and (min-width: 768px) {
-  .modal-img {
-    min-height: 550px !important;
-    width: 100% !important;
-  }
 
   .modal-bg {
     max-height: calc(90vh - 10px) !important;
@@ -89,15 +96,14 @@
     display: none;
     position: fixed;
     top: 9%;
-    overflow-y: auto !important;
     flex-direction: column;
     justify-content: flex-start;
-    width: 80%;
+    width: 70vw;
     background-color: #fff;
     padding: 0 18px;
     border-radius: 16px;
     z-index: 100001;
-    margin-left: 10%;
+    margin-left: 15%;
   }
 
   .modal-structure {
