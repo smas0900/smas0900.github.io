@@ -18,7 +18,7 @@
   display: none;
   position: fixed;
   top: 9%;
-  overflow-y: auto ;
+  overflow-y: auto;
   flex-direction: column;
   justify-content: flex-start;
   width: 90%;
@@ -88,7 +88,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
   .modal-bg {
     max-height: calc(90vh - 10px) !important;
     min-height: 80vh;
