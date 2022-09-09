@@ -1,7 +1,7 @@
 const modals = [
   {
     title: 'Facebook 360',
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     langs: ['Html', 'Css', 'Javascript'],
     imgCard: './images/SnapshootPortfolio.png',
     cannopy: 'FACEBOOK',
