@@ -407,6 +407,10 @@ body {
   margin-bottom: 12px;
 }
 
+#fs-frm {
+  margin-bottom: 5%;
+}
+
 #fs-frm ul {
   list-style: none;
   margin-left: 24px;
@@ -434,7 +438,6 @@ body {
   align-content: center;
   border-radius: 8px;
   margin-left: 24px;
-  margin-bottom: 45px;
   padding: 12px 16px;
 }
 
@@ -459,6 +462,17 @@ body {
 
 .navDesk {
   display: none;
+}
+
+small {
+  display: flex;
+  color: rgb(255, 1, 1);
+  background-color: beige;
+  border: 1px solid red;
+  border-radius: 2px;
+  padding: 5px;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 @media (min-width: 780px) {
